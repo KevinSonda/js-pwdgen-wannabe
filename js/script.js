@@ -13,3 +13,7 @@ console.log(color);
 //Creo una variabile dove assegno i valori inseriti precedentemente con il  valore 23
 let string = `${first_name}${last_name}${color}23`;
 console.log(string);
+
+//recupero lelemneto html preposto al contenimento della stringa e gli assegnamo un valore
+
+document.getElementById('pwd').innerText = string;
